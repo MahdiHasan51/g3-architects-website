@@ -201,6 +201,19 @@ main > section{
 .sponsor-companies img{
   filter: grayscale(100%);
 }
+.footer-container{
+ background-color: #FFF4E7;
+ width: 1440px;
+ margin: 0 auto;
+ text-align: center;
+ margin-top: 130px;
+ padding: 38px;
+}
+.footer-description{
+  text-align: center;
+  color: #424242;
+  font-size: 1.25rem;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .navbar, .nav-link, .teams, .features{
@@ -228,6 +241,9 @@ main > section{
     margin-top: 20px;
     margin-left: 20px;
   }
+  .footer-container{
+    width: auto;
+  }
 }
 
 
@@ -247,5 +263,8 @@ main > section{
   #experience-badge{
     margin-top: 20px;
     margin-left: 20px;
+  }
+  .footer-container{
+    width: auto;
   }
 }
